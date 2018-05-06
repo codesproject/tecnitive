@@ -1,0 +1,115 @@
+
+
+.msp-preset-btn-192 {
+        /* background-color: #fff; */
+    color: #fff;
+    border: 1px solid #8aaad8;
+}
+
+.msp-preset-btn-192:hover {
+  /*  background-color: #f9f9f9 */
+}
+
+.msp-preset-btn-192:active {
+    top: 1px
+}
+
+.msp-cn-163-1 {
+    font-weight: 100;
+    font-size: 38px !important;
+    line-height: normal;
+    color: #ffffff;
+}
+
+.smText {
+        font-size: 18px;
+    line-height: 27px;
+    display: block;
+    font-weight: 500;
+}
+
+.msp-cn-163-2 {
+   /* font-family: "Roboto";*/
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+}
+
+.msp-preset-btn-192 a{ 
+    text-decoration: none;
+}
+
+.msp-preset-btn-192 a:hover{ 
+    text-decoration: none;
+}
+
+.master-slider a, .master-slider a:hover {
+   
+    text-decoration: none;
+        color: #e7faff;
+}
+
+.msp-cn-163-3 {
+        /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 100;
+    font-size: 38px !important;
+    line-height: normal;
+    color: #ffffff;
+    text-align: right;
+    
+}
+
+.msp-cn-163-4 {
+   /* font-family: "Roboto";*/
+    font-weight: 500;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.msp-cn-163-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 33px !important;
+    line-height: normal;
+    color: #ffffff;
+	text-align: left;
+}
+
+.msp-cn-163-6 {
+   /* font-family: "Roboto";*/
+    font-weight: 500;
+    font-size: 12px;
+    line-height: normal;
+}
+
+
+
+@media  (max-width:700px){
+	.msp-cn-163-1, .msp-cn-163-3, .msp-cn-163-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 22px !important;
+    line-height: normal;
+    
+}		
+		}
+
+@media  (max-width:550px){
+	.msp-cn-163-1, .msp-cn-163-3, .msp-cn-163-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 18px !important;
+    line-height: normal;
+    
+}		
+		}
+
+
+.g-pt-90.g-pb-90 {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 4.42857rem !important;
+    
+    
+}
