@@ -233,8 +233,8 @@
                data-effect="t(true,n,100,n,n,n,n,n,n,n,n,n,n,n,n)"
                data-duration="2600"
                data-ease="easeOutQuint"
-               data-offset-x="551"
-               data-offset-y="165"
+               data-offset-x="100"
+               data-offset-y="160"
                data-origin="tl"
                data-position="normal"
                data-masked="true"
@@ -255,7 +255,7 @@
              data-ease="easeOutQuint"
              data-type="button"
              data-action="next"
-             data-offset-x="1065"
+             data-offset-x="100"
              data-offset-y="300"
              data-origin="tl"
              data-position="normal">Read More</a>
@@ -653,6 +653,28 @@ and worker mobility.</p>
       $(document).on('ready', function () {
         // initialization of carousel
         $.HSCore.components.HSCarousel.init('.js-carousel');
+
+    $('#carousel1, #carousel2, #carousel3, #carousel6, #carousel10, #carousel11').slick('setOption', 'responsive', [{
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3
+      }
+    }, {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2
+      }
+    }, {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1
+      }
+    }], true);
 
         // initialization of go to
         $.HSCore.components.HSGoTo.init('.js-go-to');

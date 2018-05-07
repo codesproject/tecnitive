@@ -15,17 +15,18 @@
 }
 
 .msp-cn-163-1 {
-    font-weight: 100;
-    font-size: 38px !important;
+   font-weight: 100;
+    font-size: 33px !important;
     line-height: normal;
     color: #ffffff;
 }
 
 .smText {
-        font-size: 18px;
+    font-size: 17px;
     line-height: 27px;
     display: block;
-    font-weight: 500;
+    font-weight: 300;
+    letter-spacing: .015em;
 }
 
 .msp-cn-163-2 {
@@ -53,10 +54,10 @@
 .msp-cn-163-3 {
         /* font-family: 'Open Sans', sans-serif; */
     font-weight: 100;
-    font-size: 38px !important;
+    font-size: 33px !important;
     line-height: normal;
     color: #ffffff;
-    text-align: right;
+    text-align: left;
     
 }
 
@@ -113,3 +114,25 @@
     
     
 }
+
+@media (max-width: 385px) {
+    
+    .u-heading-v6-2 .u-heading-v6__title, h6.g-font-size-12.g-pl-90 {
+    padding-left: 3.42857rem !important;
+}
+    .u-heading-v6-1.u-heading-v6__title::after { 
+    width: 2rem !important;
+}
+    
+    .u-heading-v6-1 .u-heading-v6__title::after, .u-heading-v6-1.text-center .u-heading-v6__title::before, .u-heading-v6-1.text-right .u-heading-v6__title::before, .u-heading-v6-2 .u-heading-v6__title::after, .u-heading-v6-2.text-center .u-heading-v6__title::before, .u-heading-v6-2.text-right .u-heading-v6__title::before {
+         width: 2rem !important;
+        
+    }
+    
+    .g-pt-90.g-pb-90 {
+    width: 85%;
+    margin: auto;
+}
+
+    }
+
