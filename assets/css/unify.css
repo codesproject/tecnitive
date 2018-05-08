@@ -2802,7 +2802,7 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 /* Button Primary */
 .u-btn-primary {
   color: #fff;
-  background-color: #4a8aef;
+  background-color: #289eb0;
 }
 
 .u-btn-primary:hover, .u-btn-primary.active {
