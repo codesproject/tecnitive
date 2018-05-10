@@ -117,11 +117,18 @@ footer.g-color-white-opacity-0_8.g-py-20 {
 }
 
 .footerAbt {
-        font-size: 1.2em;
-    font-weight: 300;
+       font-size: 1.1em;
+    font-weight: 500;
     padding-right: 45px;
+    line-height: 25px;
+    letter-spacing: .02em;
+    color: #879496;
 }
 
 h2.u-heading-v6__title.h4 {
         color: #7e7e7e;
+}
+
+address.g-bg-no-repeat.g-font-size-12.mb-0 {
+    font-weight: 600;
 }
