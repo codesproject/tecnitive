@@ -84,7 +84,26 @@
     line-height: normal;
 }
 
+/*
 
+@media (max-width:855px) {
+	.ms-view.ms-wave-view.ms-grab-cursor {
+    height: 500px !important;
+}
+	.ms-layer-mask {
+    width: 85% !important;
+    top: 85px !important;
+}
+	.ms-btn-container {
+    top: 40% !important;
+    width: 100px !important;
+}
+	a.ms-layer.msp-cn-163-2.ms-btn.ms-btn-circle.ms-btn-n.msp-preset-btn-192.ms-action-layer {
+    width: 100% !important;
+    font-size: .85em !important;
+}
+
+	} */
 
 @media  (max-width:700px){
 	.msp-cn-163-1, .msp-cn-163-3, .msp-cn-163-5 {
